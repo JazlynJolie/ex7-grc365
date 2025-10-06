@@ -1,12 +1,48 @@
 /*Add your CSS here*/
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
 
+h1 {
+  font-size: 34px;
+}
 
+h2 {
+  color: maroon;
+}
 
+img {
+  width: 100vw;
+  height: auto;
+}
 
+.cap {
+  color: navy;
+}
 
+a:link {
+  color: green;
+}
 
+a:visited {
+  color: teal;
+}
 
+a:hover {
+  color: fuchsia;
+}
 
+a:active{
+  color: azure;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
 
 /*No touch*/
 h1, h2, nav, .cap, footer {
